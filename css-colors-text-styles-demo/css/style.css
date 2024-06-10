@@ -1,0 +1,45 @@
+#first-lady {
+    color: #804464;
+    font-weight: bold;
+    font-style: italic;
+}
+#first-man {
+    background-color: black;
+    color: #d75a90;
+    font-size: 24px;
+    text-align: center;
+}
+#cat {
+    color: red;
+    text-decoration: underline;
+}
+
+#one {
+    color: crimson;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#two {
+    color: purple;
+    font-style: italic;
+    font-size: 28px;
+}
+
+#three {
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#four {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: line-through;
+    background-color: black;
+    text-align: right;
+    display: block;
+}
+
