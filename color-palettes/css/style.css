@@ -1,0 +1,32 @@
+#pal1-heading {
+    font-family: cursive;
+    text-align: center;
+}
+#pal1-c1 {
+    background-color: #F367C8;
+    color: darkblue;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pal1-c2 {
+    background-color: #8D577A;
+    color: darkblue;
+    font-family:cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pal1-c3 {
+    background-color: #FFE5FF;
+    color: darkblue;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pal1-c4 {
+    background-color: #005244;
+    color: darkblue;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
