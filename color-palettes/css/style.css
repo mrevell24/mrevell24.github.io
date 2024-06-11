@@ -30,3 +30,67 @@
     text-align: center;
     padding: 24px;
 }
+#pal2-heading {
+    font-family:'Courier New', Courier, monospace;
+    text-align:center
+}
+#pal2-c1 {
+    background-color: #E4F35D;
+    color:dimgrey;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    padding: 24px;
+}
+#pal2-c2 {
+    background-color: #FFDD61;
+    color: dimgrey;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#pal2-c3 {
+    background-color: #FFC976;
+    color: dimgrey;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#pal2-c4 {
+    background-color: #FFB993;
+    color: dimgrey;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#pal3-heading {
+    font-family: fantasy;
+    text-align: center;
+}
+#pal3-c1 {
+    background-color: #5546E9;
+    color:aliceblue;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#pal3-c2 {
+    background-color: #0D525D;
+    color: aliceblue;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#pal3-c3 {
+    background-color: #06879A;
+    color: aliceblue;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#pal3-c4 {
+    background-color: #99B4BA;
+    color: aliceblue;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
