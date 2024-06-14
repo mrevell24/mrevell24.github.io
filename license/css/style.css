@@ -1,0 +1,101 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license {
+    width: 700px;
+    border: 2px solid purple;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: lightpink;
+}
+#left-side {
+    display: inline-block; 
+    width: 65%;
+}
+#right-side img {
+    width: 100%;
+}
+#id-and-expiration div {
+    display: inline-block;
+}
+#small-pic-container, #data-fields {
+    display: inline-block;
+}
+#small-pic-container img {
+    width: 100px;
+    opacity: 65%;
+}
+#data-left, #data-right {
+    display: inline-block;
+    margin: 28px 12px;
+}
+#signature {
+    text-align: center;
+    font-size: large;
+    padding-top: 0px;
+}
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+#right-side img {
+    width: 100%;
+}
+#donor, #real-id {
+    display: inline-block;
+}
+
+/* STYLING BELOW */
+
+#content h1 {
+    color: darkblue;
+    font-size: 55px;
+    margin: 0px;
+}
+#left-side h4 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+#donor {
+    color: red;
+    font-weight: bold;
+}
+#donor-and-real-id {
+    text-align: center;
+    margin: 10px;
+}
+#real-id {
+    color: white;
+    background-color: gold;
+    border-radius: 50%;
+}
+#address {
+    font-weight: bold;
+    margin: 10px 18px;
+}
+#id-and-expiration {
+    margin: 0px 18px;
+}
+#id-and-expiration div {
+    color: blue;
+}
+#id-and-expiration div span {
+    color: red;
+    font-weight: bold;
+}
+#data-left span, #data-right span {
+    color: red;
+    font-weight: bold;
+}
+#data-left div, #data-right div {
+    color: blue;
+}
