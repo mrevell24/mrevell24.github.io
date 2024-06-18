@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* ^^ Resets ^^ */
+/* Resetting our document's deafult styles so we can stylize it our own way */
+img {
+    width: 100%;
+}
+/* ^^This stops images from coming in so large across the whole screen */
+
+.single-column {
+    background-color: pink;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
