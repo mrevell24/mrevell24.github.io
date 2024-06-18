@@ -12,9 +12,20 @@ img {
 }
 /* ^^This stops images from coming in so large across the whole screen */
 
+
+
+
 .single-column {
-    background-color: pink;
     width: 50%;
     min-width: 500px;
     margin: 0px auto;
+}
+.light-container {
+    background-color: pink;
+    padding: 48px 0px;
+}
+.dark-container {
+    background-color: navy;
+    color: white;
+    padding: 48px 0px;
 }
