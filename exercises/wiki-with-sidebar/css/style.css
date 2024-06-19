@@ -19,6 +19,7 @@ body {
     background-color: #f7ebf1;
     width: 200px;
     padding: 24px;
+    position: relative;
 }
 
 #main {
@@ -30,6 +31,8 @@ body {
 #sidebar ul {
     list-style-type: none;
     padding: 4px;
+    position: sticky;
+    top: 0px;
     a {
         color: blue;
         text-decoration: none;
