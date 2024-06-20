@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 800px 200px 1fr;
+    grid-template-areas: ". main side .";
+}
+
+#sidebar {
+    grid-area: side;
+    padding: 20px;
+}
+#main {
+    grid-area: main;
+    margin: 0px 32px;
+}
+#author, #date {
+    display: inline-block;
+}
+
+#date {
+    padding: 0px 24px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+#threatened-p {
+    display: flex;
+}
+#baby {
+    width: 275px;
+    margin: 0px 5px;
+}
