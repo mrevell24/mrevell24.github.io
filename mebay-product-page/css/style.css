@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+img {
+    width: 100%;
+}
+/* page resets above */
+
+.page-title {
+    margin: 8px;
+    border-bottom: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+#m {
+    color: tomato;
+}
+#e {
+    color: lightseagreen;
+}
+#b {
+    color: coral;
+}
+#a {
+    color: limegreen;
+}
+#y {
+    color: lightsalmon;
+}
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 900px 350px;
+    grid-template-areas: "header header header"
+    "leftbar main rightbar";
+    justify-content: center;
+}
+
+div.shoe-views img {
+    border-radius: 20%;
+    padding: 4px 8px;
+}
+#main {
+    padding: 0px 20px;
+}
+#discount {
+    color: red;
+}
+h2 {
+    grid-area: header;
+}
+#rightbar {
+    background-color: aqua;
+}
+div#seller {
+    border-bottom: 1px solid black;
+    padding-bottom: 17px;
+}
+div #price {
+    border-bottom: 1px solid black;
+}
