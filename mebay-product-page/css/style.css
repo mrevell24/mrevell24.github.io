@@ -75,7 +75,7 @@ div #price {
     border-bottom: 1px solid salmon;
 }
 span.btn {
-    border: 3px solid salmon;
+    border: 2px solid lightgray;
     border-radius: 8px;
     margin: 20px 12px;
     padding: 4px 80px;
@@ -85,20 +85,23 @@ div#qty {
     display: inline-block;
 }
 span.qty {
-    border: 3px solid salmon;
+    border: 2px solid lightgray;
     border-radius: 8px;
     margin: 20px 12px;
     padding: 4px 50px;
 }
 
 /* Hover BTNs Below */
-.qty:hover {
+#buy-button:hover {
     background-color: rgb(244, 178, 137);
 }
-.btn:hover {
+#cart-button:hover {
     background-color: rgb(244, 178, 137);
 }
-.qty, .btn {
+#list-button:hover {
+    background-color: rgb(244, 178, 137);
+}
+#buy #cart {
     transition: 
         background-color 0.5s,
         border-radius 0.5s
