@@ -20,6 +20,18 @@ img {
     grid-area: side;
     padding: 20px;
 }
+.links a:hover {
+    background-color: rgb(171, 246, 246);
+    border-radius: 12px;
+}
+.links a {
+    transition: 
+        background-color 0.5s,
+        border-radius 0.5s
+    ;
+    padding: 12px;
+    display: inline-block;
+}
 #sidebar a {
     text-decoration: none;
     color: navy;
@@ -28,6 +40,9 @@ img {
     list-style-type: none;
     margin: 0px;
     padding: 16px 0px;
+}
+#links {
+    background-color: aquamarine;
 }
 #main {
     grid-area: main;
@@ -51,4 +66,14 @@ h2 {
 #baby {
     width: 275px;
     margin: 0px 5px;
+}
+#facts li {
+    margin: 8px;
+}
+#reproduction li {
+    margin: 8px;
+}
+#beachturtle {
+    width: 400px;
+    margin: 12px 0px;
 }
