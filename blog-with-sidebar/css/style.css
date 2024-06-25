@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(204, 240, 243);
+    background-color: rgb(227, 245, 247);
 }
 body {
     margin: 0px;
@@ -19,6 +19,15 @@ img {
 #sidebar {
     grid-area: side;
     padding: 20px;
+}
+#sidebar a {
+    text-decoration: none;
+    color: navy;
+}
+#sidebar li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 16px 0px;
 }
 #main {
     grid-area: main;
