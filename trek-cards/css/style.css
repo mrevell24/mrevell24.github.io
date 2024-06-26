@@ -1,0 +1,40 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+img {
+    width: 100%;
+}
+.card-style-1 {
+    width: 350px;
+    background-color: #eeffee;
+    box-shadow: 4px 4px 8px #0008;
+    margin: 12px;
+    p {
+        margin: 16px 28px;
+        color: rgb(80, 80, 80);
+        font-size: 16px;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+.card-style-1 img {
+    width: 100%;
+}
+.card-style-1 a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+    font-size: 20px;
+
+}
