@@ -10,9 +10,9 @@
 
 .card-style-2 {
     background-color: white;
-    width: 42%;
+    width: 40%;
     border-radius: 36px;
-    padding: 24px;
+    padding: 26px;
     margin: 12px;
         h2 {
         text-align: center;
@@ -27,12 +27,13 @@
         img {
             border-radius: 50%;
             width: 70%;
-            margin: 50px;
+            margin: 50px 50px 25px 50px;
         }
 }
 .animagram-header {
     display: flex;
     justify-content:space-between;
+
         .brand-name {
             font-size: 28px;
         }
