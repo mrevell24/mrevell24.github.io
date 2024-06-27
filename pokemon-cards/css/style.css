@@ -1,0 +1,88 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+img {
+    width: 100%
+}
+.card-style-3 {
+    display: flex;
+    flex-direction: column;
+    border: 20px solid rgb(249, 209, 11);
+    border-radius: 12px;
+    margin: 18px;
+    padding: 16px;
+    max-width: 350px;
+    img {
+        border: 5px solid rgb(249, 209, 11);
+        width: 100%;
+    }
+    .attack {
+        display: flex;
+        flex: 1;
+        margin: 8px 0px;
+        padding: 8px 0px 12px;
+        border-bottom: 2px solid black;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .data {
+        border: 2px solid rgb(249, 209, 11);
+        font-weight: bold;
+        font-size: 10px;
+    }
+}
+.energy {
+    display: flex;
+    align-items: center;
+}
+.description {
+    font-size: 14px;
+    span {
+        font-weight: bold;
+    }
+}
+.power {
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
+.details {
+    background: linear-gradient(-25deg,#f7ab3a, #f0d423, #f7ab3a);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11px;
+    text-align: center;
+    margin: 4px 0px;
+}
+.pokemon-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    h2 {
+        margin-bottom: 4px;
+        margin-top: 0px;
+    }
+    div {
+        margin-bottom: 4px;
+        font-size: 20px;
+    }
+}
+/* BG Colors Below */
+#pokemon-card-1 {
+    background: linear-gradient(-25deg,#96b857, #4a7924, #96b857);
+}
+#pokemon-card-2 {
+    background: linear-gradient(-25deg,#96b857, #4a7924, #96b857);
+}
+#pokemon-card-3 {
+    background: linear-gradient(-25deg,#f7ab3a, #a75106, #f7ab3a);
+}
+#pokemon-card-4 {
+    background: linear-gradient(-25deg,#3ee7b2, #07948d, #3ee7b2);
+}

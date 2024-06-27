@@ -14,35 +14,36 @@
     border-radius: 36px;
     padding: 24px;
     margin: 12px;
-        h2 {
+    h2 {
         text-align: center;
         margin-top: 0px;
-         }
-         p {
-            text-align:center;
-            margin-bottom: 50px;
-         }
+    }
+    p {
+        text-align:center;
+        margin-bottom: 50px;
+    }
 }
 .profile-pic-container {
-        img {
-            border-radius: 50%;
-            width: 65%;
-            margin: 50px 50px 25px 50px;
-        }
+    text-align: center;
+    img {
+        border-radius: 50%;
+        width: 200px;
+        margin: 50px 50px 25px 50px;
+    }
 }
 .animagram-header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-        .brand-name {
-            font-size: 28px;
-        }
+    .brand-name {
+        font-size: 28px;
+    }
 }
 .animagram-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-        span {
-            font-size: 24px;
-        }
+    span {
+        font-size: 24px;
+    }
 }
