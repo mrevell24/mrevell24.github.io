@@ -9,6 +9,7 @@ body {
     font-size: 1.125rem;
     background-color: #111;
     color: #efefef;
+    height: 800rem;
     h1, h2, h4 {
         font-family: "Staatliches", sans-serif;
     }
