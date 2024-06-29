@@ -7,6 +7,33 @@ body {
     font-family: sans-serif;
 }
 
+#head {
+    text-align: center;
+    padding: 50px;
+    border-top: 6px solid purple;
+    border-bottom: 6px solid purple;
+    a {
+        text-decoration: none;
+        display: block;
+        border: 0.5px solid #5f3df6;
+        max-width: 250px;
+        margin: 0px auto;
+        padding: 12px 64px;
+        color: #800080;
+        border-radius: 6px;
+        box-shadow: 
+            inset 0px 0px 10px #5f3df6
+        ;
+        &:hover {
+            box-shadow: 
+            -5px 0px 20px #5f3df6,
+            5px 0px 20px #00ffff,
+            inset 0px 0px 10px #fff5
+            ;
+        }
+    }
+}
+
 #hero-1 {
     background: 
         linear-gradient(180deg, #37b8ef94, #bf7bf099),
@@ -36,7 +63,7 @@ body {
         margin-bottom: 100px;
     }
 }
-#hero-1 a, #hero-3 a {
+#hero-1 a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
@@ -54,17 +81,62 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    h1 {
+        font-size: 4rem;
+        padding-left: 24px;
+        color: bisque;
+    }
+    h2 {
+        font-size: 3rem;
+        font-style: italic;
+        padding-left: 24px;
+        color: bisque;
+    }
 }
-#hero-2 a {
+#btn a {
     text-decoration: none;
     color: #05a7ed;
     font-size: 1rem;
-    display:
-    block;
+    font-weight: bold;
+    display: inline-block;
     background-color: white;
     padding: 12px 64px;
     border-radius: 6px;
+    margin: 0px 24px;
+}
+
+#hero-3 {
+    background:
+        linear-gradient(180deg, #058ced, #9266f06a),
+        url(../images/stage.jpeg)
+    ;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    h1 {
+        color: #fbff0d;
+        font-size: 4rem;
+        margin-right: 26px;
+    }
+    h2 {
+        color: #fbff0d;
+        font-size: 3rem;
+    }
+}
+#hero-3 a {
+    text-decoration: none;
+    display: inline-block;
+    color: navy;
+    background-color: aqua;
+    padding: 12px 64px;
+    border-radius: 6px;
+    margin: 0px 8px;
 }
