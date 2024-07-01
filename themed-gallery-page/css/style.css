@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        background-color: white;
+        padding: 28px;
+        font-style: italic;
+        color: #1f56e2;
+    }
+}
+
+.h-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: 5px solid #1f56e2;
+    padding: 20px;
+    img {
+        height: 250px;
+        flex: 250px;
+        object-fit: cover;
+    }
+}
