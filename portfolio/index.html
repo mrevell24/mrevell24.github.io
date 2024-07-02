@@ -11,47 +11,83 @@
         <div id="home">
             <div id="head">
                 <div class="navbar">
-                    <img
-                        id="logo"
-                        src="images/mylogo.svg" 
-                        alt="M.R. Design Logo"
-                    >
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                    <div class="container">
+                        <img
+                            id="logo"
+                            src="images/mylogo.svg" 
+                            alt="M.R. Design Logo"
+                        >
+                        <ul>
+                            <li><a href="index.html" class="topnav">Home</a></li>
+                            <li><a href="#"class=topnav>About</a></li>
+                            <li class="drop">
+                                <a href="#" class="topnav">
+                                    Gallery
+                                </a>
+                                <ul class="menu">
+                                    <li><a href="designs.html">DESIGNS</a></li>
+                                    <li><a href="#">PAINTINGS</a></li>
+                                    <li><a href="#">PHOTOGRAPHY</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="topnav">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div id="hero">
-                    <h1>Welcome!</h1>
-                    <h3>Artist/Graphic Designer</h3>
+                    <div class="container">
+                        <h1>Welcome!</h1>
+                        <h3>Artist/Graphic Designer</h3>
+                        <a href="mywork.html" class="btn">VIEW WORK</a>
+                    </div>
                 </div>
             </div>
-            <h1 id="highlighted-work">Highlighted Work</h1>
-            <div id="home-content">
+            <h1 id="highlighted-work" class="container">Highlighted Work</h1>
+            <div id="home-content" class="container">
                 <div class="card">
                     <h4>F.I.R.S.T.'s Poster</h4>
                     <img 
                         src="images/final-poster.png" 
                         alt="Summer Bash Poster"
                     >
+                    <a href="#" class="btn">DETAILS</a>
                 </div>
                 <div class="card">
                     <h4>
-                        Conceptual Project/<br>
-                        Sydney Opera House
+                        Conceptual Project/Sydney Opera House
                     </h4>
                     <img
                         src="images/architectural-design.png" 
                         alt="Sydney Opera House Digital Design"
                     >
+                    <a href="#" class="btn">DETAILS</a>
                 </div>
                 <div class="card">
-
+                    <h4>Fairytale Matte Painting</h4>
+                    <img 
+                        src="images/matte-painting.jpg" 
+                        alt="Fairytale matte painting."
+                    >
+                    <a href="#" class="btn">DETAILS</a>
                 </div>
             </div>
-            <div class="footer"></div>
+            <div class="footer">
+                <p>
+                    Follow me on social media! Where there is no limits to 
+                    creativity!
+                </p>
+                <div>
+                    <a href="https://www.instagram.com/mrevell.designs/">
+                        <img src="images/Instagram.svg" alt="Instagram Icon">
+                    </a>
+                    <a href="www.linkedin.com/in/monica-revell-3035a4187">
+                        <img src="images/Linkedin.svg" alt="LinkedIn Icon">
+                    </a>
+                    <a href="https://www.facebook.com/monica.revell.7/">
+                        <img src="images/Facebook.svg" alt="Facebook Icon">
+                    </a>
+                </div>
+            </div>
         </div>
 
     </body>
