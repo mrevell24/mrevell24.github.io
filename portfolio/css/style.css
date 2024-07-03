@@ -209,10 +209,12 @@ body {
         height: 350px;
         flex: 1;
         object-fit: cover;
+        width: 100%;
     }
 }
 .h-masonry-gallery a {
     position: relative;
+    flex-grow: 1;
     p {
         position: absolute;
         background: linear-gradient(180deg, #fae0e0, #DBE0FA);
