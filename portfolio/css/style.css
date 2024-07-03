@@ -177,3 +177,57 @@ body {
         text-decoration: none;
     }
 }
+
+/* Design Gallery Page */
+#design-content {
+    h1 {
+        font-style: italic;
+        font-weight: lighter;
+        margin-top: 48px;
+        font-size: 3rem;
+        color: #1C2551;
+    }
+    h4 {
+        background: linear-gradient(180deg, #fae0e0, #DBE0FA);
+        text-align: center;
+        font-weight: lighter;
+        padding: 12px 75px;
+        display: block;
+        margin: 0px auto;
+        width: max-content;
+        font-size: 1.25rem;
+    }
+}
+.h-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    border: 3px solid #1C2551;
+    padding: 30px 24px;
+    margin: 12px 75px;
+    img {
+        height: 350px;
+        flex: 1;
+        object-fit: cover;
+    }
+}
+.h-masonry-gallery a {
+    position: relative;
+    p {
+        position: absolute;
+        background: linear-gradient(180deg, #fae0e0, #DBE0FA);
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    &:hover p {
+        visibility: visible;
+        opacity: 1;
+    }
+}
