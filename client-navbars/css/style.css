@@ -38,7 +38,22 @@ body{
 }
 #logo2 {
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: #ff5f25;
+    font-style: oblique;
 }
 #navbar2 .link2 {
     text-decoration: none;
+}
+#cta-button {
+    background: linear-gradient(180deg, #ff5f25, #fa8d27);
+    padding: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link2 {
+    color: #ff5f25;
+    font-size: 1.5rem;
 }
