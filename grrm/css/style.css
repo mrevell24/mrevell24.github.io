@@ -471,8 +471,8 @@ body {
             "card-1"
             "card-2"
             "card-3"
-            "aside"
             "blog"
+            "aside"
             "footer"
             "bottom";
     }
@@ -505,5 +505,12 @@ body {
         background-color: transparent;
         padding: 0px;
         margin: 0px;
+    }
+}
+@media screen and (max-width: 408px) {
+    #social-section a img{
+        display: flex;
+        width: 25px;
+        padding-top: 10px;
     }
 }
