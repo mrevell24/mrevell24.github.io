@@ -214,18 +214,14 @@ a {
 
 @media screen and (max-width: 768px) {
     #nav {
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 10px 20px;
-        gap: 12px
+        gap: 12px;
     }
     #hero h1 {
-        font-size: 72px;
+        font-size: 50px;
     }
     #hero h3 {
-        font-size: 50px;
+        font-size: 26px;
     }
     .three-cards, .two-cards {
         flex-direction: column;
