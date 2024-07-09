@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+#nav {
+    background-color: #fac184;
+    padding: 25px;
+    a {
+        text-decoration: none;
+    }
+}
+.container {
+    width: 90vw;
+    margin: 0px auto;
+}
+#hero {
+    background: 
+        linear-gradient(to right, #844f2c, #844f2c, #ffffff00, #ffffff00, #ffffff00), 
+        url(../images/heroimg.jpg)
+    ;
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h1 {
+        font-size: 4rem;
+        color: white;
+    }
+}
+#cta a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+}
