@@ -25,6 +25,7 @@ body {
     }
 }
 #nav {
+    border-bottom: 2px solid #51241f;
     background-image: url(../images/bg.png);
     background-size: 30%;
     padding: 25px;
@@ -39,7 +40,7 @@ body {
 }
 .link {
     color: #51241f;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-family: "embury-text", serif;
     font-weight: bold;
     font-style: normal;
@@ -122,7 +123,223 @@ body {
 }
 
 /* Animal Pages */
-.de img {
-    width: 20px;
+.animal {
+    width: 550px;
     object-fit: contain;
+    border: 20px solid #51241f;
+}
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        color: #51241f;
+        padding: 12px 30px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-family: "embury-text", serif;
+        font-weight: bold;
+        font-style: normal;
+    }
+    p {
+        text-align: center;
+        border: 2px solid white;
+        padding: 24px 32px;
+        margin-bottom: 30px;
+        width: 70%;
+        font-size: 1.125rem;
+    }
+}
+.pagebg {
+    background: 
+        linear-gradient(20deg, #fed7adf0, #fed7adf0),
+        url(../images/pagebg.png)
+    ;
+}
+.adopt-cta a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 12px 70px;
+    font-size: 1.75rem;
+    color: brown;
+    border-radius: 28px;
+    font-family: "embury-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 36px 0px 70px;
+}
+.adopt-cta a:hover {
+    background-color: #fac184;
+    box-shadow: 6px 6px 4px #0003;
+}
+
+
+
+/* Media Queries */
+@media screen and (min-width:980px) and (max-width:1199px){
+    #logo {
+        display: none;
+    }
+    #logo-container {
+        i {
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+    }
+    .link {
+        font-size: 1.75rem;
+    }
+    #link-container {
+        gap: 80px;
+    }
+    #hero {
+        background: 
+            linear-gradient(to right, #844f2c, #ffffff00, #ffffff00, #ffffff00), 
+            url(../images/heroimg.jpg)
+        ;
+        justify-content: flex-end;
+        height: 100vh;
+        background-size: cover;
+        background-position: right;
+        .container {
+            margin-bottom: 100px;
+        }
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+    #cta a {
+        padding: 8px 60px;
+        font-size: 1.5rem;
+        color: brown;
+        border-radius: 24px;
+    }
+}
+
+
+@media screen and (max-width: 979px) and (min-width: 680px){
+    #logo {
+        display: none;
+    }
+    #logo-container {
+        i {
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+    }
+    .link {
+        font-size: 1.75rem;
+    }
+    #link-container {
+        gap: 80px;
+    }
+    #hero {
+        background: 
+            linear-gradient(to right, #844f2c, #ffffff00, #ffffff00, #ffffff00), 
+            url(../images/heroimg.jpg)
+        ;
+        justify-content: flex-end;
+        height: 50vh;
+        background-size: cover;
+        background-position: right;
+        .container {
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+    #cta a {
+        padding: 8px 60px;
+        font-size: 1rem;
+        color: brown;
+        border-radius: 24px;
+    }
+    .adopt-cta a {
+        padding: 12px 50px;
+        font-size: 1.5rem;
+    }
+    .single-column p {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 680px){
+    #logo {
+        display: none;
+    }
+    #logo-container {
+        i {
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+    }
+    .link {
+        font-size: 1rem;
+    }
+    #link-container {
+        gap: 20px;
+        flex-direction: column;
+        a {
+            font-size: 1.5rem;
+        }
+    }
+    #hero {
+        background: 
+            linear-gradient(to bottom, #844f2c, #ffffff00, #ffffff00, #ffffff00), 
+            url(../images/heroimg.jpg)
+        ;
+        background-attachment: fixed;
+        justify-content: flex-start;
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        .container {
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    #cta a {
+        padding: 8px 30px;
+        font-size: 1rem;
+        color: brown;
+        border-radius: 24px;
+    }
+    .animal {
+        width: 300px;
+    }
+    .single-column {
+        width: 50%;
+        min-width: 200px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            color: #51241f;
+            padding: 12px 30px;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            font-family: "embury-text", serif;
+            font-weight: bold;
+            font-style: normal;
+        }
+        p {
+            padding: 24px 32px;
+            margin: 30px 0px;
+            width: 100%;
+            font-size: .75rem;
+        }
+    }
+    .adopt-cta a {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
 }
