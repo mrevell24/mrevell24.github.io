@@ -295,7 +295,7 @@ body {
             url(../images/heroimg.jpg)
         ;
         background-attachment: fixed;
-        justify-content: flex-start;
+        justify-content: flex-end;
         height: 50vh;
         background-size: cover;
         background-position: center;
@@ -304,6 +304,9 @@ body {
         }
         h1 {
             font-size: 2rem;
+            background-color: #844f2c;
+            display: inline-block;
+            padding: 4px 12px;
         }
     }
     #cta a {
