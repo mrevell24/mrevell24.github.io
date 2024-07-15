@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* Nav Header Below */
+#nav {
+    background-color: #9cc99c;
+    padding: 20px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.62rem;
+    }
+}
+#link-container {
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+}
+#logo-contain img {
+    width: 100px;
+}
+#nav-icons {
+    display: flex;
+    gap: 28px;
+}
+
+/* Hero Below */
+#hero-content {
+    background: 
+        linear-gradient(0deg, #059b1982, #fba81971),
+        url(../images/hero.jpg)
+    ;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    h1 {
+        font-size: 4rem;
+        color: #FFF200;
+    }
+    p {
+        width: 450px;
+        text-align: center;
+        font-size: 1.75rem;
+        color: white;
+        margin-top: 12px;
+    }
+}
+#hero-content {
+    a {
+        border: 2px solid #FFF200;
+        padding: 10px 22px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+        border-radius: 40px;
+        margin-top: 40px;
+    }
+}
+.spacer {
+    height: 50vh;
+    background: 
+        linear-gradient(0deg, #30933e73, #89878772),
+        url(../images/ingredients.jpg)
+    
+    ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Home Content Below*/
+.base-content {
+    background-color: #059B1A;
+    display: flex;
+    align-items: center;
+}
+#card-contain {
+    display: flex;
+}
+.cards {
+    border: 2px solid #76C043;
+    margin: 24px;
+}
+#header {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 1.75rem;
+}
+
+/* Footer Below*/
+#footer {
+    background-color: #9cc99c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#symbol-contain img {
+    width: 100px;
+}
+#symbol-contain {
+    margin: 40px 0px;
+}
+#f-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+#socials {
+    a {
+        text-decoration: none;
+    }
+}
