@@ -181,37 +181,48 @@
 }
 
 /* Menu Page Below */
-#menu-contain {
-    background-color: #3b613b;
+.menu-contain {
+    background-size: cover;
     padding: 40px 20px;
 }
+#first {
+    background: linear-gradient(180deg, #036c11c6, #558b31d2);
+}
+#second {
+    background: linear-gradient(0deg, #036c11c6, #558b31d2);
+}
 #special {
-    border: 8px dotted #FBAA19;
+    border: 4px solid #FBAA19;
     border-radius: 16px;
     padding: 20px;
     width: 80%;
-    margin: 0px auto;
+    margin: 20px auto;
+    display: flex;
     img {
         width: 100%;
-        height: 450px;
+        height: 700px;
         object-fit: cover;
         object-position: center;
     }
     h3 {
         color: #FFF200;
-        font-size: 3rem;
+        font-size: 4rem;
         text-align: center;
         padding-bottom: 20px;
     }
 }
-#special p {
+#desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#desc p {
     text-align: center;
-    padding: 20px 24px;
+    padding: 20px 0px;
     margin: 20px auto;
     width: 60%;
-    background-color: #059b19af;
     border-radius: 12px;
-    color: #FFF200;
+    color: white;
     font-size: 1.5rem;;
 }
 #price {
@@ -224,13 +235,36 @@
 #menu-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 275px;
     gap: 26px;
-    padding: 40px;
     img {
-        height: 100%;
-        width: 100%;
+        height: 300px;
+        width: 400px;
         object-fit: cover;
         border-radius: 12px;
     }
+    div {
+        margin: 40px 0px;
+        padding: 24px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid #76C043;
+        background-color: #75c04367;
+        border-radius: 14px;
+    }
+}
+.c h3 {
+    text-align: center;
+    color: #FFF200;
+    padding: 6px 0px;
+    font-size: 2rem;
+    margin: 10px auto;
+    width: max-content;
+}
+.c p {
+    text-align: center;
+    color: #FFF200;
+    margin-top: 16px;
+    font-size: 1.75rem;
+    padding: 6px 0px;
 }
