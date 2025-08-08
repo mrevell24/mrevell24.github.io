@@ -1,0 +1,51 @@
+@font-face {
+    font-family: raybentmango;
+    src: url('../fonts/raybentmango.ttf') format('ttf');
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: #ffddd0ef;
+}
+.layout {
+    margin: 0px auto;
+}
+#top-container {
+    background-color: #233133;
+    border-bottom: 6px solid #96d1d9;
+}
+#logo img {
+    width: 20%;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+}
+#links-section {
+    text-align: center;
+    margin: 20px;
+    background-color: #96d1d9;
+    width: 800px;
+}
+#links-section h1 {
+    font-family: raybentmango;
+    color: #f15e6a;
+    padding: 20px;
+}
+#links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #233133;
+    padding: 20px;
+    margin: 12px 0px;
+    width: 300px;
+}
