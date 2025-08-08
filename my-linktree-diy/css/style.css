@@ -33,7 +33,7 @@ body {
     margin: 20px;
     background-color: #96d1d9;
     border-radius: 40px;
-    box-shadow: inset 2px 2px 5px #233133;
+    box-shadow: inset 0px 0px 5px #233133;
 }
 h1 {
     font-family: raybentmango;
@@ -57,4 +57,9 @@ a {
     margin: 12px 0px;
     width: 300px;
     border-radius: 40px;
+}
+a:hover {
+    box-shadow: 2px 2px 5px black;
+    background-color: white;
+    color: #f15e6a;
 }
