@@ -17,17 +17,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
     text-align: center;
     padding: 20px 0px;
 }
 #me {
-    width: 8%;
     border-radius: 50%;
+    width: 100px;
+    margin-right: 12px;
 }
 #logo {
-    width: 8%;
     padding: 10px;
+    width: 100px;
 }
 #main-container {
     margin: 0px auto;
@@ -75,4 +75,23 @@ a {
 a:hover {
     box-shadow: 2px 2px 5px #452f23;
     background-color: #f15f6a;
+}
+
+@media screen and (max-width: 600px){
+    #main-container {
+        width: 350px;
+    }
+    a {
+        width: 250px;
+        font-size: 0.85rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    #main-container {
+        width: 300px;
+    }
+    a {
+        width: 200px;
+        font-size: 0.65rem;
+    }
 }
