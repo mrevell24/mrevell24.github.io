@@ -1,6 +1,8 @@
 @font-face {
     font-family: raybentmango;
     src: url('../fonts/raybentmango.ttf') format('ttf');
+    font-family: aubrey;
+    src: url('../fonts/aubrey.TTF') format('ttf');
 }
 * {
     box-sizing: border-box;
@@ -8,21 +10,24 @@
     font-family: sans-serif;
 }
 body {
-    background-color: white;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #233133ee, #96d1d9ee);
 }
-#top-container {
-    background-color: #233133;
-    border-bottom: 4px solid #f15e6a;
+#header {
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-#logo {
+    align-items: center;
+    gap: 10px;
     text-align: center;
     padding: 20px 0px;
 }
-#logo img {
-    width: 15%;
+#me {
+    width: 8%;
+    border-radius: 50%;
+}
+#logo {
+    width: 8%;
+    padding: 10px;
 }
 #main-container {
     margin: 0px auto;
@@ -30,15 +35,14 @@ body {
 }
 #links-section {
     text-align: center;
-    margin: 20px;
-    background-color: #96d1d9;
+    background-color: #f2f9f9;
     border-radius: 40px;
-    box-shadow: inset 0px 0px 5px #233133;
+    box-shadow: inset 0px 0px 6px #452f23;
 }
 h1 {
     font-family: raybentmango;
     color: white;
-    font-size: 3rem;
+    font-size: 3.25rem;
     letter-spacing: 8px;
     padding-top: 6px;
 }
@@ -51,15 +55,23 @@ h1 {
 }
 a {
     color: white;
+    font-size: 1rem;
+    font-family: aubrey;
+    letter-spacing: 1px;
     text-decoration: none;
     background-color: #233133;
     padding: 20px;
     margin: 12px 0px;
     width: 300px;
     border-radius: 40px;
+    transition:
+        box-shadow 0.5s ease-in-out,
+        background-color 0.5s ease-in-out,
+        color 0.5s ease-in-out,
+        transform 0.5s ease-in-out
+    ;
 }
 a:hover {
-    box-shadow: 2px 2px 5px black;
-    background-color: white;
-    color: #f15e6a;
+    box-shadow: 2px 2px 5px #452f23;
+    background-color: #f15f6a;
 }
