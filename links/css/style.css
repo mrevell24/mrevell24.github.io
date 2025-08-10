@@ -28,6 +28,7 @@ body {
     width: 100px;
     margin-right: 12px;
     box-shadow: 0px 0px 3px #f15f6a;
+    rotate: -10deg;
 }
 #logo {
     padding: 10px;
