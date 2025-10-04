@@ -16,12 +16,12 @@ body {
 }
 #top-container {
     padding: 20px 0px;
+    margin-top: 30px;
 }
 #header {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 #me {
     border-radius: 50%;
@@ -30,15 +30,10 @@ body {
     rotate: -10deg;
 }
 #intro {
+    color: #f2f9f9;
     font-size: 1.25rem;
     margin-top: 20px;
     text-align: center;
-}
-.paragraph {
-    color: #f2f9f9;
-    text-align: center;
-    width: 450px;
-    margin: 0px auto;
 }
 #main-container {
     margin: 0px auto;
